@@ -4,7 +4,7 @@ Original theme for [Hexo].
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `flat`.
+Execute the following command and modify `theme` in `_config.yml` to `fffflat`.
 
 ```
 git clone git://github.com/konitter/hexo-theme-fffflat.git themes/fffflat
