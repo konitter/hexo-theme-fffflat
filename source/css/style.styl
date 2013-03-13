@@ -33,31 +33,48 @@ p + h4
 
 // global
 #header
-#footer
-	text-align center
-
-#header
+	padding 20px 0
 	background color-pink
 
+#header
+#footer
+	.wrapper
+		clearfix()
+		width page-width
+		center-block()
+
 #logo
-	display inline-block
+	float left
 	line-height 1.35
-	margin 20px 0
-	padding 0 10px
-	border-radius 7px
-	background #fff
-	font-family font-sans-serif
-	font-size 2.5em
+	margin 0
+	color #fff
+	font-family "Oswald", font-sans-serif
+	font-size 2.3em
 	a
-		color color-pink
+		color #fff
 		&:hover
+			text-decoration none
+
+#nav
+	clearfix()
+	float right
+	ul
+		margin .8em 0 0
+	li
+		float left
+		margin-left 30px
+		list-style none
+	a
+		color rgba(#fff, .6)
+		&:hover
+			color #fff
 			text-decoration none
 
 #footer
 	color text-sub-color
 
 #posts
-	width post-width
+	width page-width
 	center-block()
 
 // post
